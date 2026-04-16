@@ -29,7 +29,7 @@ void input()
     for (int i = 0; i < nPanjang; i++)
     {
         cout << "Data ke-" << (i + 1) << "=";
-        cin >> elemen[i];
+        cin >> element[i];
     }
 }
 
@@ -40,7 +40,7 @@ void bubbleSortArray()
     {
         for (int j = 0; j <= nPanjang - pass; j++)
         {
-            if element[j] > element[j + 1];
+            if (element[j] > element[j + 1]);
             {
                 int temp = element[j];
                 element[j] = element[j + 1];
@@ -78,7 +78,7 @@ void binarySearch()
         cout << "====================================\n";
 
         cout << "Masukkan elemen yang ingin dicari: ";
-        cin >> X;
+        cin >> x;
 
         int low = 0;
         int high = nPanjang - 1;
